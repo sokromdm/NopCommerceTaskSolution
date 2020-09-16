@@ -1,4 +1,11 @@
-﻿nopCommerce: free and open-source eCommerce solution[![Build Status](https://travis-ci.com/nopSolutions/nopCommerce.svg?branch=develop)](https://travis-ci.com/nopSolutions/nopCommerce)
+﻿### Test Tasks for NopCommerce ###
+This is the Solution of nopCommerce 4.30 default store demo with a few changes to comlete a two tasks:
+1) Added value 'Author' for 'Product' model as for Book Shop. Viewer can see this value on the product page (ProductTemplate.Simple.cshtml) and Admin can change this value in Administration section (_CreateOrUpdate.Info.cshtml).
+2) Added a simple widget-plugin 'TaskTwo' that shows message about delivery discount on the product page (ProductTemplate.Simple.cshtml). Admin can change message in Administration section.
+
+MsSQL Database backup copy is in project directory (TaskDB.bak).
+
+nopCommerce: free and open-source eCommerce solution[![Build Status](https://travis-ci.com/nopSolutions/nopCommerce.svg?branch=develop)](https://travis-ci.com/nopSolutions/nopCommerce)
 ===========
 
 [nopCommerce](https://www.nopcommerce.com/?utm_source=github&utm_medium=content&utm_campaign=homepage) is the best open-source eCommerce shopping cart solution. nopCommerce is free, and it is the most popular ASP.NET eCommerce platform.
