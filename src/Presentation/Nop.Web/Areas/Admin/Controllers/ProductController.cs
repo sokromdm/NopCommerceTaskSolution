@@ -153,6 +153,10 @@ namespace Nop.Web.Areas.Admin.Controllers
             foreach (var localized in model.Locales)
             {
                 _localizedEntityService.SaveLocalizedValue(product,
+                    x => x.Author,
+                    localized.Author,
+                    localized.LanguageId); // For the Task 1
+                _localizedEntityService.SaveLocalizedValue(product,
                     x => x.Name,
                     localized.Name,
                     localized.LanguageId);

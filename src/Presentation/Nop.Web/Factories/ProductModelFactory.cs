@@ -1200,6 +1200,7 @@ namespace Nop.Web.Factories
             //standard properties
             var model = new ProductDetailsModel
             {
+                Author = _localizationService.GetLocalized(product, x => x.Author), // For the Task 1
                 Id = product.Id,
                 Name = _localizationService.GetLocalized(product, x => x.Name),
                 ShortDescription = _localizationService.GetLocalized(product, x => x.ShortDescription),

@@ -67,7 +67,11 @@ namespace Nop.Web.Areas.Admin.Models.Catalog
         #endregion
 
         #region Properties
-        
+
+        // For the Task 1
+        [NopResourceDisplayName("Admin.Catalog.Products.Fields.Author")]
+        public string Author { get; set; }
+
         //picture thumbnail
         [NopResourceDisplayName("Admin.Catalog.Products.Fields.PictureThumbnailUrl")]
         public string PictureThumbnailUrl { get; set; }
@@ -474,6 +478,10 @@ namespace Nop.Web.Areas.Admin.Models.Catalog
     public partial class ProductLocalizedModel : ILocalizedLocaleModel
     {
         public int LanguageId { get; set; }
+
+        // For the Task 1
+        [NopResourceDisplayName("Admin.Catalog.Products.Fields.Author")]
+        public string Author { get; set; }
 
         [NopResourceDisplayName("Admin.Catalog.Products.Fields.Name")]
         public string Name { get; set; }

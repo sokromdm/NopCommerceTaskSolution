@@ -14,6 +14,11 @@ namespace Nop.Core.Domain.Catalog
     public partial class Product : BaseEntity, ILocalizedEntity, ISlugSupported, IAclSupported, IStoreMappingSupported, IDiscountSupported<DiscountProductMapping>, ISoftDeletedEntity
     {
         /// <summary>
+        /// Gets or sets of the book author for the Task 1
+        /// </summary>
+        public string Author { get; set; }
+
+        /// <summary>
         /// Gets or sets the product type identifier
         /// </summary>
         public int ProductTypeId { get; set; }

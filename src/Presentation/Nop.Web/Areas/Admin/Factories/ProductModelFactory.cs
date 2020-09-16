@@ -812,6 +812,9 @@ namespace Nop.Web.Areas.Admin.Factories
                     locale.MetaDescription = _localizationService.GetLocalized(product, entity => entity.MetaDescription, languageId, false, false);
                     locale.MetaTitle = _localizationService.GetLocalized(product, entity => entity.MetaTitle, languageId, false, false);
                     locale.SeName = _urlRecordService.GetSeName(product, languageId, false, false);
+                    // For the Task 1
+                    locale.Author = _localizationService.GetLocalized(product, entity => entity.Author, languageId, false, false);
+
                 };
             }
 

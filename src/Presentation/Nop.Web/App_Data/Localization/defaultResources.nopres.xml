@@ -2745,6 +2745,12 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStartDateTime.Hint">
     <Value>The start of the product's availability in Coordinated Universal Time (UTC).</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Author">
+      <Value>Author</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Author.Hint">
+      <Value>The attribute author name e.g. 'J.R.R. Tolkien'</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.BackorderMode">
     <Value>Backorders</Value>
   </LocaleResource>
