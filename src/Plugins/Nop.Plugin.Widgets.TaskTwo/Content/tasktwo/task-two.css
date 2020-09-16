@@ -1,0 +1,10 @@
+.product-hint {
+    text-align: center;
+    background-color: #778899;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}

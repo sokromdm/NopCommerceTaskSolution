@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Task Two",
+  "SystemName": "Widgets.TaskTwo",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.40" ],
+  "Author": "Roman Sokolov",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.TaskTwo.dll",
+  "Description": "This plugin shows editable discount info on the product page"
+}
